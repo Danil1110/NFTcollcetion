@@ -3,38 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON Viewer</title>
+    <title>Открыть JSON-файл</title>
 </head>
 <body>
 
-    <pre id="jsonContent"></pre>
+<pre id="jsonContent"></pre>
 
-    <script>
-        // Асинхронная функция для загрузки и отображения JSON файла
-        async function loadAndDisplayJSON() {
-            try {
-                // Асинхронный запрос к файлу "meta.json"
-                const response = await fetch('meta.json');
-
-                // Проверка статуса ответа
-                if (!response.ok) {
-                    throw new Error('Failed to load JSON file');
-                }
-
-                // Получение JSON данных из ответа
-                const jsonData = await response.json();
-
-                // Отображение JSON данных в элементе <pre>
+<script>
+    // Функция для выполнения запроса на загрузку файла
+    function loadJSONFile() {
+        const xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                const jsonData = JSON.parse(xhr.responseText);
                 document.getElementById('jsonContent').textContent = JSON.stringify(jsonData, null, 2);
-            } catch (error) {
-                console.error('Error loading or displaying JSON file:', error);
-                alert('Error loading or displaying JSON file. Please check if the file is available and valid.');
             }
-        }
+        };
 
-        // Вызов функции при загрузке страницы
-        loadAndDisplayJSON();
-    </script>
+        xhr.open('GET', 'meta.json', true);
+        xhr.send();
+    }
+
+    // Вызываем функцию при загрузке страницы
+    window.onload = loadJSONFile;
+</script>
 
 </body>
 </html>
