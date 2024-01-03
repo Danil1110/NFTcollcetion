@@ -8,16 +8,16 @@
 <body>
 
 <!-- Создаем кнопки для выбора файла -->
-<button onclick="loadJSONFile('meta.json')">Загрузить meta.json</button>
-<button onclick="loadJSONFile('1.json')">Загрузить 1.json</button>
-<button onclick="loadJSONFile('2.json')">Загрузить 2.json</button>
-<button onclick="loadJSONFile('3.json')">Загрузить 3.json</button>
-<button onclick="loadJSONFile('4.json')">Загрузить 4.json</button>
+<button onclick="loadFiles('meta.json', 'NFT_Video1.mp4')">Загрузить meta.json и видео NFT_Video1</button>
+<button onclick="loadFiles('1.json', 'NFT_Video2.mp4')">Загрузить 1.json и видео NFT_Video2</button>
+<button onclick="loadFiles('2.json', 'NFT_Video3.mp4')">Загрузить 2.json и видео NFT_Video3</button>
+<button onclick="loadFiles('3.json', 'NFT_Video4.mp4')">Загрузить 3.json и видео NFT_Video4</button>
 
 <pre id="jsonContent"></pre>
+<video id="videoPlayer" controls></video>
 
 <script>
-    // Функция для выполнения запроса на загрузку файла
+    // Функция для выполнения запроса на загрузку JSON-файла
     function loadJSONFile(filename) {
         const xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function () {
@@ -26,7 +26,7 @@
                     const jsonData = JSON.parse(xhr.responseText);
                     document.getElementById('jsonContent').textContent = JSON.stringify(jsonData, null, 2);
                 } else {
-                    document.getElementById('jsonContent').textContent = 'Ошибка при загрузке файла.';
+                    document.getElementById('jsonContent').textContent = 'Ошибка при загрузке JSON-файла.';
                 }
             }
         };
@@ -36,9 +36,18 @@
         xhr.send();
     }
 
-    // Вызываем функцию при загрузке страницы (можно не вызывать при загрузке страницы)
-    // window.onload = loadJSONFile('meta.json');
+    // Функция для выполнения запроса на загрузку видеофайла
+    function loadVideoFile(filename) {
+        document.getElementById('videoPlayer').src = `https://danil1110.github.io/NFTcollcetion/${filename}`;
+    }
+
+    // Общая функция для загрузки обоих файлов
+    function loadFiles(jsonFilename, videoFilename) {
+        loadJSONFile(jsonFilename);
+        loadVideoFile(videoFilename);
+    }
 </script>
 
 </body>
 </html>
+
