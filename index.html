@@ -14,13 +14,17 @@
     function loadJSONFile() {
         const xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function () {
-            if (xhr.readyState === 4 && xhr.status === 200) {
-                const jsonData = JSON.parse(xhr.responseText);
-                document.getElementById('jsonContent').textContent = JSON.stringify(jsonData, null, 2);
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    const jsonData = JSON.parse(xhr.responseText);
+                    document.getElementById('jsonContent').textContent = JSON.stringify(jsonData, null, 2);
+                } else {
+                    document.getElementById('jsonContent').textContent = 'Ошибка при загрузке файла.';
+                }
             }
         };
 
-        xhr.open('GET', 'meta.json', true);
+        xhr.open('GET', 'https://danil1110.github.io/NFTcollcetion/meta.json', true);
         xhr.send();
     }
 
@@ -30,4 +34,3 @@
 
 </body>
 </html>
-
