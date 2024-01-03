@@ -7,11 +7,18 @@
 </head>
 <body>
 
+<!-- Создаем кнопки для выбора файла -->
+<button onclick="loadJSONFile('meta.json')">Загрузить meta.json</button>
+<button onclick="loadJSONFile('1.json')">Загрузить 1.json</button>
+<button onclick="loadJSONFile('2.json')">Загрузить 2.json</button>
+<button onclick="loadJSONFile('3.json')">Загрузить 3.json</button>
+<button onclick="loadJSONFile('4.json')">Загрузить 4.json</button>
+
 <pre id="jsonContent"></pre>
 
 <script>
     // Функция для выполнения запроса на загрузку файла
-    function loadJSONFile() {
+    function loadJSONFile(filename) {
         const xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4) {
@@ -24,12 +31,13 @@
             }
         };
 
-        xhr.open('GET', 'https://danil1110.github.io/NFTcollcetion/meta.json', true);
+        const url = `https://danil1110.github.io/NFTcollcetion/${filename}`;
+        xhr.open('GET', url, true);
         xhr.send();
     }
 
-    // Вызываем функцию при загрузке страницы
-    window.onload = loadJSONFile;
+    // Вызываем функцию при загрузке страницы (можно не вызывать при загрузке страницы)
+    // window.onload = loadJSONFile('meta.json');
 </script>
 
 </body>
