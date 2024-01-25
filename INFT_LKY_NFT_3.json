@@ -1,0 +1,12 @@
+{
+  "name": "Sweater",
+  "image": "https://danil1110.github.io/NFTcollcetion/Sweater.jpg",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "1"
+    }
+  ],
+  "content_url": "https://danil1110.github.io/NFTcollcetion/Sweater.jpg",
+  "description": "1 Category of NFT"
+}
