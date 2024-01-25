@@ -1,0 +1,12 @@
+{
+  "name": "Hoodie",
+  "image": "https://danil1110.github.io/NFTcollcetion/Hoodie.jpg",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "2"
+    }
+  ],
+  "content_url": "https://danil1110.github.io/NFTcollcetion/Hoodie.jpg",
+  "description": "2 Category of NFT"
+}
