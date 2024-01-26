@@ -1,12 +1,12 @@
 {
   "name": "Sweater",
-  "image": "https://danil1110.github.io/NFTcollcetion/Sweater.jpg",
+  "image": "https://danil1110.github.io/NFTcollcetion/NFT888.jpg",
   "attributes": [
     {
       "trait_type": "Category",
       "value": "1"
     }
   ],
-  "content_url": "https://danil1110.github.io/NFTcollcetion/Sweater.jpg",
+  "content_url": "https://danil1110.github.io/NFTcollcetion/NFT888.jpg",
   "description": "1 Category of NFT"
 }
