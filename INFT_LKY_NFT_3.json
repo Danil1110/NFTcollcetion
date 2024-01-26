@@ -2,17 +2,17 @@
   "name": "Astral Eights of Prosperity",
   "image": "https://danil1110.github.io/NFTcollcetion/NFT888.jpg",
   "attributes": [
-     {
+    {
+      "trait_type": "Category",
+      "value": "888"
+    }, 
+    {
       "trait_type": "⚡️ Infinity",
       "value": "$INFT Tokens"
     },
     {
       "trait_type": "🍀 Lucky TON",
       "value": "$LKY Tokens"
-    },
-    {
-      "trait_type": "Category",
-      "value": "888"
     }
   ],
   "content_url": "https://danil1110.github.io/NFTcollcetion/NFT888.jpg",
