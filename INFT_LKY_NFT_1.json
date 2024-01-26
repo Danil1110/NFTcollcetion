@@ -1,12 +1,12 @@
 {
   "name": "Polo",
-  "image": "https://danil1110.github.io/NFTcollcetion/Polo.jpg",
+  "image": "https://danil1110.github.io/NFTcollcetion/NFT8.jpg",
   "attributes": [
     {
       "trait_type": "Category",
       "value": "3"
     }
   ],
-  "content_url": "https://danil1110.github.io/NFTcollcetion/Polo.jpg",
+  "content_url": "https://danil1110.github.io/NFTcollcetion/NFT8.jpg",
   "description": "3 Category of NFT"
 }
