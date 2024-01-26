@@ -2,6 +2,14 @@
   "name": "Ethereal Eight Blessings",
   "image": "https://danil1110.github.io/NFTcollcetion/NFT88.jpg",
   "attributes": [
+     {
+      "trait_type": "⚡️ Infinity",
+      "value": "$INFT Tokens"
+    },
+    {
+      "trait_type": "🍀 Lucky TON",
+      "value": "$LKY Tokens"
+    },
     {
       "trait_type": "Category",
       "value": "88"
