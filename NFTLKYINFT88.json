@@ -3,16 +3,28 @@
   "image": "https://danil1110.github.io/NFTcollcetion/NFT88.jpg",
   "attributes": [
      {
+      "trait_type": "⏳ Start Time",
+      "value": "08.02.24"
+    }, 
+    {
+      "trait_type": "⌛️ End Time",
+      "value": "08.10.24"
+    }, 
+    {
+      "trait_type": "♾️ Category",
+      "value": "88"
+    }, 
+    {
+      "trait_type": "🔐 Private Access",
+      "value": "True"
+    }, 
+    {
       "trait_type": "⚡️ Infinity",
       "value": "$INFT Tokens"
     },
     {
       "trait_type": "🍀 Lucky TON",
       "value": "$LKY Tokens"
-    },
-    {
-      "trait_type": "Category",
-      "value": "88"
     }
   ],
   "content_url": "https://danil1110.github.io/NFTcollcetion/NFT88.jpg",
