@@ -3,8 +3,20 @@
   "image": "https://danil1110.github.io/NFTcollcetion/NFT888.jpg",
   "attributes": [
     {
-      "trait_type": "Category",
+      "trait_type": "⏳ Start Time",
+      "value": "08.02.24"
+    }, 
+    {
+      "trait_type": "⌛️ End Time",
+      "value": "08.10.24"
+    }, 
+    {
+      "trait_type": "♾️ Category",
       "value": "888"
+    }, 
+    {
+      "trait_type": "🔐 Private Access",
+      "value": "True"
     }, 
     {
       "trait_type": "⚡️ Infinity",
