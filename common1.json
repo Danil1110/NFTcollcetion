@@ -15,13 +15,11 @@
       "uri": "https://t.me/TokenInfinityChat"
     }
   ],
-  "traits": [
+  "attributes": [
     {
       "trait_type": "RARITY",
       "value": "1"
     },
-  ],
-  "attributes": [
     {
       "trait_type": "Drop $INFT Tokens",
       "value": "0.5 ~ 3.25"
