@@ -1,6 +1,12 @@
 {
   "name": "Ethereal Eight Blessings",
   "image": "https://danil1110.github.io/NFTcollcetion/NFT88.jpg",
+  "buttons": [
+    {
+      "label": "🖼 Join Infinity & Lucky TON | NFT",
+      "uri": "https://t.me/InfinityLuckyTonNFTBot"
+    }
+  ],
   "attributes": [
      {
       "trait_type": "⏳ Start Time",
