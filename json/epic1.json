@@ -1,0 +1,29 @@
+{
+  "name": "🔮 Infinity: Drop Epic",
+  "image": "https://danil1110.github.io/NFTcollcetion/epic1.jpg",
+  "buttons": [
+    {
+      "label": "🖼 Join Infinity | NFT Drop",
+      "uri": "https://t.me/InfinityNFTDropBot"
+    },
+    {
+      "label": "📣 Join Infinity | Community",
+      "uri": "https://t.me/TokenInfinity"
+    },
+    {
+      "label": "🔥 Join Infinity | Chat",
+      "uri": "https://t.me/TokenInfinityChat"
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "RARITY",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Drop $INFT Tokens",
+      "value": "4.5 ~ 11.75"
+    }
+  ],
+  "description": "This type of NFT gives a random number of tokens in the range from 4.5 to 11.75 just once."
+}

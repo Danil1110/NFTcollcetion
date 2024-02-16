@@ -1,0 +1,29 @@
+{
+  "name": "🌟 Infinity: Drop Legendary",
+  "image": "https://danil1110.github.io/NFTcollcetion/legendary1.jpg",
+  "buttons": [
+    {
+      "label": "🖼 Join Infinity | NFT Drop",
+      "uri": "https://t.me/InfinityNFTDropBot"
+    },
+    {
+      "label": "📣 Join Infinity | Community",
+      "uri": "https://t.me/TokenInfinity"
+    },
+    {
+      "label": "🔥 Join Infinity | Chat",
+      "uri": "https://t.me/TokenInfinityChat"
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "RARITY",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Drop $INFT Tokens",
+      "value": "10.75 ~ 20.75"
+    }
+  ],
+  "description": "This type of NFT gives a random number of tokens in the range from 10.75 to 20.75 just once."
+}
