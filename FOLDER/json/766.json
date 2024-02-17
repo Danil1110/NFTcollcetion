@@ -1,0 +1,29 @@
+{
+  "name": "🔮 Infinity: Drop Item #767",
+  "image": "https://danil1110.github.io/NFTcollcetion/epic1.jpg",
+  "buttons": [
+    {
+      "label": "🖼 Join Infinity | NFT Drop",
+      "uri": "https://t.me/InfinityNFTDropBot"
+    },
+    {
+      "label": "📣 Join Infinity | Community",
+      "uri": "https://t.me/TokenInfinity"
+    },
+    {
+      "label": "🔥 Join Infinity | Chat",
+      "uri": "https://t.me/TokenInfinityChat"
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "Drop $INFT Tokens",
+      "value": "· 2.75 ~ 8.75 ·"
+    },
+    {
+      "trait_type": "Random Drop Time",
+      "value": "· 28/02/2024 ·"
+    }
+  ],
+  "description": "This type of NFT gives a random number of tokens in the range from 2.75 to 8.75 just once."
+}
