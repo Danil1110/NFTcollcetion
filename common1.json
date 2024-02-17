@@ -1,5 +1,5 @@
 {
-  "name": "🌪 Infinity: Drop Common",
+  "name": "🌪 Infinity: Drop Item",
   "image": "https://danil1110.github.io/NFTcollcetion/common1.jpg",
   "buttons": [
     {
@@ -17,13 +17,13 @@
   ],
   "attributes": [
     {
-      "trait_type": "RARITY",
-      "value": "Common"
+      "trait_type": "Drop $INFT Tokens",
+      "value": "· 2.75 ~ 8.75 ·"
     },
     {
-      "trait_type": "Drop $INFT Tokens",
-      "value": "0.5 ~ 3.75"
+      "trait_type": "Random Drop Time",
+      "value": "· 28/02/2024 ·"
     }
   ],
-  "description": "This type of NFT gives a random number of tokens in the range from 0.5 to 3.75 just once."
+  "description": "This type of NFT gives a random number of tokens in the range from 2.75 to 8.75 just once."
 }
