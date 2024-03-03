@@ -1,0 +1,23 @@
+{
+  "image": "https://danil1110.github.io/NFTcollcetion/",
+  "attributes": [
+    {
+      "trait_type": "Author",
+      "value": "Rafael Santi"
+    },
+    {
+      "trait_type": "Classification",
+      "value": "Painting"
+    },
+    {
+      "trait_type": "Made",
+      "value": "Oil on canvas"
+    },
+    {
+      "trait_type": "Located",
+      "value": "Dresden. Gallery of Old Masters"
+    }
+  ],
+  "description": "This NFT features a unique piece of world art, bridging cultures and epochs in digital form. It's a collectible token of creativity and history, preserved on the blockchain for future generations to own and appreciate.",
+  "name": "Sistine Madonna"
+}
