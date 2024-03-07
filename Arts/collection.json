@@ -1,11 +1,12 @@
 {
   "name": "Five Lucky Privates",
   "description": "This collection of NFTs provides the key to an exclusive world of VIP chats where investments, technology, art and fashion are discussed and high-level networking opportunities are provided. Investing in one of these NFTs opens the door to a selective community where knowledge and opportunity circulate. This is a chance to become part of the elite and gain access to exclusive information and events not available to the general public.",
-  "image": "https://danil1110.github.io/NFTcollcetion/Arts/5lky.jpg",
-  "cover_image": "https://danil1110.github.io/NFTcollcetion/Arts/5lkybanner.jpg",
   "social_links": [
     "https://t.me/lkyton",
     "https://t.me/lky_ton",
     "https://t.me/lkynews"
-  ]
+  ],
+  "image": "https://danil1110.github.io/NFTcollcetion/Arts/5lky.jpg",
+  "cover_image": "https://danil1110.github.io/NFTcollcetion/Arts/5lkybanner.jpg"
+  
 }
