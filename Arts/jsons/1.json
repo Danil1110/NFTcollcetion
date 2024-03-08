@@ -1,23 +1,32 @@
 {
-  "image": "https://danil1110.github.io/NFTcollcetion/",
+  "name": "5 Lucky VIP #2",
+  
   "attributes": [
     {
-      "trait_type": "Author",
-      "value": "Rafael Santi"
+      "trait_type": "Доступ в VIP Чат:",
+      "value": " Lucky TON - LKY🍀VIP"
     },
     {
-      "trait_type": "Classification",
-      "value": "Painting"
+      "trait_type": "Доступ в VIP Чат:",
+      "value": " Infinity - INFT♾VIP"
     },
     {
-      "trait_type": "Made",
-      "value": "Oil on canvas"
+      "trait_type": "Доступ в VIP Чат:",
+      "value": "UNICORN - UNIC🦄VIP"
     },
     {
-      "trait_type": "Located",
-      "value": "Dresden. Gallery of Old Masters"
+      "trait_type": "Доступ в VIP Чат:",
+      "value": "Stable Metal - STBL🥇VIP"
+    },
+    {
+      "trait_type": "Доступ в VIP Чат:",
+      "value": "Tribe - TRIBE👨‍👩‍👧‍👦VIP"
+    },
+    {
+      "trait_type": "Lucky Dynamics",
+      "value": "On"
     }
   ],
-  "description": "This NFT features a unique piece of world art, bridging cultures and epochs in digital form. It's a collectible token of creativity and history, preserved on the blockchain for future generations to own and appreciate.",
-  "name": "Sistine Madonna"
+  "content_url": "https://danil1110.github.io/NFTcollcetion/Arts/2lkymp.MP4",
+  "description": "Желтый - благородство и милосердие, ценность 👑"
 }
