@@ -1,4 +1,6 @@
 {
+  "name": "5 Lucky VIP #1",
+  "image": "https://danil1110.github.io/NFTcollcetion/Arts/1lkyimg.jpg",
   "attributes": [
     {
       "trait_type": "Доступ в VIP Чат:",
@@ -26,7 +28,5 @@
     }
   ],
   "content_url": "https://danil1110.github.io/NFTcollcetion/Arts/1lkymp.mp4",
-  "description": "Зелёный - мир, спокойствие и развитие 🍀",
-  "name": "5 Lucky VIP #1",
-  "image": "https://danil1110.github.io/NFTcollcetion/Arts/1lkyimg.jpg"
+  "description": "Зелёный - мир, спокойствие и развитие 🍀"
 }
