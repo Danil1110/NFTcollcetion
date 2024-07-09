@@ -4,13 +4,13 @@
   "buttons": [
     {
       "label": "Possibly something.",
-      "uri": "https://t.me/InftSpaceBot"
+      "uri": "https://t.me/InftSpaceBot/Infinity"
     }
   ],
   "attributes": [
     {
       "trait_type": "🖐 Multitap",
-      "value": "+3 Per Click"
+      "value": "+5 Per Click"
     },
     {
       "trait_type": "🔋 Energy Limit",
@@ -18,11 +18,11 @@
     },
     {
       "trait_type": "⚡️ Recharging Speed",
-      "value": "Accelerated"
+      "value": "+7 Per Second"
     },
     {
       "trait_type": "🤖 Tap Bot",
-      "value": "x1.5 Times More Effective"
+      "value": "x2 Times More Effective"
     }
   ],
   "description": "Boost for the game. Just connect your wallet and activate the upgrades."
