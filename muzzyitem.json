@@ -1,0 +1,17 @@
+{
+  "name": "MUZZY SBT NFT",
+  "image": "https://danil1110.github.io/NFTcollcetion/muzzy.png",
+  "buttons": [
+    {
+      "label": "muzzy",
+      "uri": "https://t.me/muzzyton"
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "MUZZY",
+      "value": "100%"
+    }
+  ],
+  "description": "TEST SBT ITEM"
+}
