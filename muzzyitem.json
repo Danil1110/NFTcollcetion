@@ -1,6 +1,7 @@
 {
   "name": "MUZZY SBT NFT",
   "image": "https://danil1110.github.io/NFTcollcetion/muzzy.jpg",
+  "content_url": "https://danil1110.github.io/NFTcollcetion/muzzy.mov",
   "buttons": [
     {
       "label": "muzzy",
